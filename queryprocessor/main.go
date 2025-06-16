@@ -12,7 +12,7 @@ type LLMResponse struct {
 	Output string `json:"output"`
 }
 
-func handler(ctx context.Context) (interface{}, error) {
+func handler(ctx context.Context) (any, error) {
 	// Your code here to query the LLM and return a response
 	log.Println("Received request")
 
