@@ -1,2 +1,3 @@
-/todos
-
+# share vscode launch configs
+.vscode/*
+!.vscode/launch.json
